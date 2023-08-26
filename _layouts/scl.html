@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="scl">
+  {%- if page.title -%}
+  <header class="the-header">
+    <h1 class="page-heading">The Spam Challenge List</h1>
+    <nav>
+        <ul>
+          <li class="fork"><a href="{{site.baseurl}}/">The List</a></li>
+          <li><a>•</a></li>
+          <li class="fork"><a href="{{site.baseurl}}/sv">Stats Viewer</a></li>
+          <li><a>•</a></li>
+          <li class="fork"><a href="{{site.baseurl}}/r">Rules</a></li>
+          <li><a>•</a></li>
+          <li class="fork"><a href="https://discord.gg/Syn6vufEWa">Discord</a></li>
+        </ul>
+      </nav>
+    <hr>
+  </header>
+  {%- endif -%}
+
+  {{ content }}
+</div>
