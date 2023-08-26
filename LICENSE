@@ -1,0 +1,35 @@
+The Helplicense Version 1.0
+
+Copyright 2023 PinkSickle
+
+Definitions:
+
+1. "Software" refers to the program or application covered under this license.
+2. "Contribute" or "Contribution" means any source code, documentation, or any other copyrighted material that is offered to the Software's repository.
+3. "Research" refers to study, testing, and exploration of the Software without executing it in a production environment.
+4. "Self-Hosting" refers to deploying and executing the Software on personal or third-party infrastructure for purposes beyond Research, especially for commercial or public use.
+
+Terms:
+
+1. Usage and Contribution:
+  a. Any individual or entity is free to use, modify, and Contribute to the Software.
+  b. All Contributions to the Software must be open sourced under this same license.
+
+2. Research:
+  a. You are free to conduct Research on the Software.
+  b. Any discoveries, vulnerabilities, or insights derived from such Research should be reported to the Software's maintainers and may be publicly disclosed.
+
+3. Self-Hosting Prohibition:
+  a. The Software shall not be used in a Self-Hosting manner.
+  b. This prohibits deploying and executing the Software for commercial purposes, as a public service, or in any production environment.
+
+4. No Warranty & Limitation of Liability:
+  a. The Software is provided "as is" without warranty of any kind, either expressed or implied.
+  b. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in action of contract, tort, or otherwise, arising from, out of, or in connection with the Software.
+
+5. Termination:
+  a. Your rights under this license will terminate automatically without notice if you violate any of its terms.
+
+6. Miscellaneous:
+  a. If any provision of this license is unenforceable, it shall not affect the enforceability of the remaining provisions.
+  b. This license is governed by the laws of [Jurisdiction] without regard to its conflicts of law principles.
