@@ -36,4 +36,8 @@ title: SCL
         top: 5px;
         display: inline-block;
     }
+
+    footer {
+        display: none;
+    }
 </style>
