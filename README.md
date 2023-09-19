@@ -1,2 +1,3 @@
-# scl
-This is the frontend for the SCL website.
+# SCL Website
+
+welcome one and all to my garbage source code!
