@@ -5,16 +5,9 @@ const { title, framerate, creator, ID, verification, iter } = Astro.props;
 
 <section class="panel fade" style="overflow:hidden">
     <div class="flex" style="align-items: center">
-        <div
-            class="thumb ratio-16-9 js-delay-css"
-            style='position: relative; height: 116.166px; background-image: url("https://i.ytimg.com/vi/{verification}/mqdefault.jpg");'
-            data-property="background-image"
-        >
-            <a class="play" href="https://www.youtube.com/watch?v="{verification}""
-            ></a>
         </div><div style="padding-left: 15px">
             <h2 style="text-align: left; margin-bottom: 0px">
-                <a href="/demonlist/permalink/442/">#{iter} - {title}</a>
+                <a>#{iter} - {title}</a>
             </h2><h3 style="text-align: left"><i>{creator} / {framerate} / {ID}</h3>
         </div>
     </div>

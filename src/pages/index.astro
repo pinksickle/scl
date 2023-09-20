@@ -5,7 +5,11 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import LevelCell from '../components/LevelCell.astro';
 
+import Levels from '../listshit';
 
+for (let i = 0; i < Levels.length; i++) {
+	Levels[i]["iter"] = i
+}
 ---
 
 <!doctype html>
@@ -16,7 +20,9 @@ import LevelCell from '../components/LevelCell.astro';
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			
+			{Levels.map((levels: any) => (
+				<LevelCell title={levels.title} framerate={levels.framerate} creator={levels.creator} ID={levels.ID} verification={levels.verification} iter />
+			  ))}
 		</main>
 		<Footer />
 	</body>
