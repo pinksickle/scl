@@ -1,0 +1,38 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main style="align-items: center;">
+            <h1>Submission Rules</h1>
+            <p>
+1 - The level must be all spam based. You are allowed to put a triple spike or an easy timing at the end or beginning. <br>
+2 - No consistency challenges. It must be more cps based than click patterns! <br>
+3 - You are not allowed to copy someone else's challenge to buff/extend, without giving credit to the original creator.
+4 - You are not allowed to use outside methods of spamming, (such as drag clicking) to prevent unfair advantages with an absurdly high cps.<br>
+5 - The only deco rule is for the level to not be just a layout. It must have something more than just 1.0 blocks. Exceptions apply when a level is hard enough or well known enough.<br>
+6 - The lowest respawn time value allowed for challenges is 0.5 (vanilla is 1).<br>
+7 - This should go without saying but believe it or not, we’ve had problems like this before. We will refuse to add your level if you include any hateful things in it such as offensive words or hate symbols (N word, swastikas etc.) These types of things aren’t tolerated and we don’t want this kind of stuff on our list.<br>
+8 - A maximum of 2 inputs are allowed when spamming. <br>
+9 - The maximum FPS to play on 360, and the minimum being 59.  <br>
+10 - You are not allowed to upload more than 3 challenges to the list. There will be some exceptions. <br>
+11 - All challenges must take some amount of effort, this is to prevent list flooding. (And trust me, we can tell when they take effort or not)<br>
+12 - If there are two challenges that are basically the exact same thing, the HARDER one will be added.<br>
+13 - Intentional abuse to cap out hardware is banned.<br>
+14- Rebinding keys IS allowed as long as you use only 2 or less keys!<br>
+15- Meme raking challenges must be really, really hard to be placed, will be judged in placement by the method and will be highlighted in red.<br>
+16- Maximum of 4 fingers for all spam methods/levels.<br>
+            </p>
+		</main>
+		<Footer />
+	</body>
+</html>

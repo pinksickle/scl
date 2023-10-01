@@ -78,10 +78,10 @@ b {
 	font-weight: 700;
 }
 a {
-	color: var(--accent);
+	color: black;
 }
 a:hover {
-	color: var(--accent);
+	color: black;
 }
 p {
 	margin-bottom: 1em;
@@ -151,4 +151,13 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+#listContainer section {
+    border-color: whitesmoke;
+	border-radius: 7px;
+	filter: drop-shadow(3px 1px 4px #000000aa);
+	background-color: white;
+	margin: 20px;
+	border-style: dashed;
 }

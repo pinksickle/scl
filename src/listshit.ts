@@ -5,5 +5,5 @@ const supabase = createClient('https://peqateslmhoxphhdnjzt.supabase.co', 'eyJhb
 let { data: Levels, error } = await supabase
   .from('Levels')
   .select('*')
-
+console.log(Levels)
 export default Levels

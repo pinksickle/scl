@@ -7,9 +7,10 @@ import LevelCell from '../components/LevelCell.astro';
 
 import Levels from '../listshit';
 
-for (let i = 0; i < Levels.length; i++) {
-	Levels[i]["iter"] = i
+if (Levels == null) {
+	alert("The list is experiencing some backend issues. Sorry about that.");
 }
+
 ---
 
 <!doctype html>
@@ -20,9 +21,11 @@ for (let i = 0; i < Levels.length; i++) {
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			{Levels.map((levels: any) => (
-				<LevelCell title={levels.title} framerate={levels.framerate} creator={levels.creator} ID={levels.ID} verification={levels.verification} iter />
-			  ))}
+			<div id="listContainer">
+			{Levels.map((levels: any, index) => (
+				<LevelCell title={levels.level_name} framerate={levels.framerate+" FPS"} creator={"by "+levels.creator} ID={levels.id} verification={levels.verification} iter={index+1} />
+			  ), )}
+			</div>
 		</main>
 		<Footer />
 	</body>
